@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "restaurantChooser",
-    "slug": "restaurantChooser",
+    "slug": "restaurant-chooser",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +13,27 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anemon.restaurantchooser",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anemon.restaurantchooser"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0fa82948-6fc3-417e-80bd-7e93804bb971"
+      }
+    },
+    "owner": "anemon"
   }
 }
