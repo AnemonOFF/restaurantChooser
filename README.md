@@ -17,6 +17,10 @@ This is a React Native application for choosing restaurants. Follow the steps be
    4. Veto/accept for persons
    5. Chosen result
 
+## Expo installation
+
+https://expo.dev/accounts/anemon/projects/restaurant-chooser/builds/f1a960cb-16e7-4fdb-883a-fcac71dd0b9e
+
 ## Prerequisites
 
 Before starting, ensure you have the following installed on your system:
